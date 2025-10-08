@@ -1,0 +1,13 @@
+name: IG Tracker (followers & following)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"   # roda a cada 6 horas (UTC)
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar que está funcionando
+        run: echo "IG Tracker instalado. Próximo passo: adicionar o script de coleta."
