@@ -1,0 +1,11 @@
+name: IG Tracker (followers & following)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  show-up:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm workflow is set up
+        run: echo "IG Tracker pronto para rodar."
